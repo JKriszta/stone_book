@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+	background-color: rgb(50, 68, 50);
+}
+
+div{
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	
+}
+img{
+	box-shadow: 10px 10px 8px #1a1818;
+	border: rgba(255, 166, 0, 0.322);
+	border-style: double;
+}
+p{
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+color: orange;
+margin-bottom: 20px;
+text-align: center;
+text-shadow: 3px 3px 5px #080808;
+}

@@ -17,25 +17,47 @@ function pageLoad(){
 
 	notes.push({
 		tag: "div",
+		class: ' class = "html"',
 		content: `
-		Mingíg úgy kezdjük a scriptünket, hogy létrehozzuk a load esemémény hatására meghívandó függvényt. Majd a load esemény hatására meghívjuk.
+		<p>Sturktúra megfeleő kialakítása</p>
+		`,
+		image:  `
+		<img src="./img/html.png" alt="htmlImage">
 		`,
 	});
+
 	notes.push({
-		tag: "code",
+		tag: "div",
+		class: ' class = "css"',
 		content: `
-		function() {
-			// console.log(mukodik);
-		}
+		<p>Child elemekre való hivatkozás gyakorlása</p>
+		`,
+		image:  `
+		<img src="./img/css.png" alt="cssImage">
 		`,
 	});
+
+	notes.push({
+		tag: "div",
+		class: ' class = "js"',
+		content: `
+		<p>Logikai feladatok megoldásának leírása javascriptben</p>
+		`,
+		image:  `
+		<img src="./img/js.png" alt="jsImage">
+		`,
+	});
+
+
 	//console.log(notes);
 
 	for (note of notes) {
 		rootE.insertAdjacentHTML("beforeend", `
-		<${note.tag}>${note.content}</${note.content}>
+		<${note.tag}${note.class}>${note.content}${note.image}
 	`);
 	}
+
+
 
 //TODO: emailben hétfőn elküldeni Richardnak
 // 	highligth codes Richárd Atom14:47

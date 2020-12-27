@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #324432;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  -webkit-box-shadow: 10px 10px 8px #1a1818;
+          box-shadow: 10px 10px 8px #1a1818;
+  border: rgba(255, 166, 0, 0.322);
+  border-style: double;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: orange;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 3px 3px 5px #080808;
+}
+/*# sourceMappingURL=style.css.map */
